@@ -12,7 +12,7 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `./out-of-school.exe
+  var txt = `      ./out-of-school.exe
   
             [C'est parti ! Voici une liste d'outils / support que j'utilise pour ma veille]
 
@@ -103,7 +103,7 @@ window.addEventListener('scroll', function () {
   var docNav = get('.doc__nav > ul');
 
   if( docNav) {
-    if (window.pageYOffset > 63) {
+    if (window.pageYOffset > 435) {
       docNav.classList.add('fixed');
     } else {
       docNav.classList.remove('fixed');

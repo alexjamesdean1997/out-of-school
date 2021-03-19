@@ -1,7 +1,7 @@
 /* css variables*/
 :root {
   --primary-color: #212121;
-  --primary-color-light: #ECECFE;
+  --primary-color-light: #7777F8;
   --accent-color: #2A2AF4;
   --accent-color-light: #7777F8;
   --accent-color-dark: #2A2AF4;
@@ -46,6 +46,10 @@ hr {
 /* typography */
 .section__title {
   color: var(--primary-color);
+}
+
+.section__title a{
+  color: var(--accent-color);
 }
 
 /* tabs */
@@ -261,7 +265,7 @@ table td:first-child {
   font-weight: 600;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   nav {
     grid-template-columns: 70px auto;
   }
@@ -286,6 +290,10 @@ table td:first-child {
   .menu.responsive .menu__item:not(:first-child) {
     display: block;
     padding: 0 0 0.5rem 0;
+  }
+
+  .wrapper {
+    width: 86%!important;
   }
 }
 

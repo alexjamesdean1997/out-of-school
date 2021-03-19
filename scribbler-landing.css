@@ -50,8 +50,12 @@ nav {
 }
 
 .feature__item {
-  max-width: calc(33% - 20px);
-  margin: 0 20px 0 0;
+  max-width: calc(50% - 30px);
+  margin: 20px 30px 0 0;
+}
+
+.feature__item h3{
+  margin-top: 0;
 }
 
 .feature__item .section__title {
@@ -155,9 +159,9 @@ nav {
   text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 992px) {
   .hero__terminal {
-    width: 70%;
+    width: 86%;
   }
   .tab__container > ul {
     right: auto;
