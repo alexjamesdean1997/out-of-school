@@ -12,7 +12,7 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `    ./out-of-school.exe
+  var txt = `./out-of-school.exe
   
             [C'est parti ! Voici une liste d'outils / support que j'utilise pour ma veille]
 
@@ -21,7 +21,7 @@ if (document.getElementsByClassName('demo').length > 0) {
             - daily.dev
             - youtube
             - les conférences`;
-  var speed = 30;
+  var speed = 20;
 
   function typeItOut () {
     if (i < txt.length) {
@@ -103,7 +103,7 @@ window.addEventListener('scroll', function () {
   var docNav = get('.doc__nav > ul');
 
   if( docNav) {
-    if (window.pageYOffset > 435) {
+    if (window.pageYOffset > 63) {
       docNav.classList.add('fixed');
     } else {
       docNav.classList.remove('fixed');
