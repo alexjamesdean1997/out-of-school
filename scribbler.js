@@ -16,11 +16,10 @@ if (document.getElementsByClassName('demo').length > 0) {
   
             [C'est parti ! Voici une liste d'outils / support que j'utilise pour ma veille]
 
-            - twitter
-            - podcasts
-            - daily.dev
-            - youtube
-            - les conférences`;
+            - Twitter
+            - Podcasts
+            - DEV Community
+            - youtube`;
   var speed = 20;
 
   function typeItOut () {
