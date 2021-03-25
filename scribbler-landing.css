@@ -51,7 +51,7 @@ nav {
 
 .feature__item {
   max-width: calc(50% - 30px);
-  margin: 20px 30px 0 0;
+  margin: 40px 30px 0 0;
 }
 
 .feature__item h3{
@@ -136,12 +136,21 @@ nav {
   padding: 2rem 0;
 }
 
+.changelog__detail li{
+  padding-bottom: 10px;
+}
+
+.changelog__detail li a{
+  color: var(--accent-color);
+}
+
 .changelog__item {
   display: flex;
 }
 
 .changelog__meta {
   flex-basis: 25%;
+  min-width: 180px;
 }
 
 .changelog__meta small {

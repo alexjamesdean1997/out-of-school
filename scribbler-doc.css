@@ -60,6 +60,7 @@ html, body {
 
 .doc__nav ul.fixed {
   position: fixed;
+  z-index: 3;
   top: 2rem;
 }
 
