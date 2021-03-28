@@ -1,3 +1,3 @@
 # Out of school
 
-web page : https://desolate-sands-89530.herokuapp.com
+web page : https://immense-inlet-07668.herokuapp.com/
