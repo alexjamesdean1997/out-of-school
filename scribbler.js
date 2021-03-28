@@ -14,7 +14,7 @@ if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `      ./out-of-school.exe
   
-            [C'est parti ! Voici une liste d'outils / support que j'utilise pour ma veille]
+            [C'est parti ! Voici une liste d'outils / supports que j'utilise pour ma veille]
 
             - Twitter
             - Podcasts
