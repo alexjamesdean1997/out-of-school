@@ -33,6 +33,7 @@
           <li class="js-btn">Dev Community</li>
           <li class="js-btn">YouTube</li>
           <li class="js-btn">Film documentaire</li>
+          <li class="js-btn">Conférence</li>
         </ul>
       </aside>
       <article class="doc__content">
@@ -234,23 +235,23 @@
               <h2 class="section__title">Conférence</h2>
               <h3 class="section__title">Clean Coding with Uncle Bob</h3>
               <p>
-                Il y a quelques jours, j'ai regardé le live de la conférence "Clean Coding with Uncle Bob" organisée par Rabobank et Robert C. Martin, également connu sous le nom d’Uncle Bob. Il est l'un des fondateurs du manifeste Agile et l'auteur du livre "Clean Code". Au cours de cette conférence, Uncle Bob a partagé sa vision et son expérience du code propre et de l'architecture propre.
+                Il y a quelques jours, j'ai regardé le live de la conférence "Clean Coding with Uncle Bob" organisée par Rabobank et Robert C. Martin, également connu sous le nom d’Uncle Bob. Il est l'un des fondateurs du manifeste Agile et l'auteur du livre "Clean Code". Au cours de cette conférence, Uncle Bob a partagé sa vision et son expérience du code et de l'architecture propre.
               </p>
               <p>
-                Uncle Ben explique que lorsqu’on démarre un nouveau projet, nous avons le luxe d'aller vite, car ce nous commençons de rien. Nous pouvons rapidement ajouter de nouvelles fonctionnalités. Mais si nous ne gardons pas ce début de code propre, le niveau de complexité augmentera de façon exponentielle. Très vite, il devient très difficile d'ajouter ou de modifier des éléments.
+                Uncle Bob explique que lorsqu’on démarre un nouveau projet, nous avons le luxe d'aller vite, car nous commençons de rien. Nous pouvons rapidement ajouter de nouvelles fonctionnalités. Mais si nous ne gardons pas ce début de code propre, le niveau de complexité augmentera de façon exponentielle. Très vite, il devient très difficile d'ajouter ou de modifier des éléments.
               </p>
               <p>
                 <em>
-                  La seule façon d'aller vite, c'est de "faire les chose proprement."- Uncle Bob
+                  La seule façon d'aller vite, c'est de "faire les choses proprement."- Uncle Bob
                 </em>
               </p>
               <p>
-                Il n'est pas facile d'écrire du code propre car le cerveau humain n'est pas vraiment adapté pour le faire parfaitement du premier coup. Un humain ne pens pas en lignes droites, ni en instructions "if" ou en boucles "while". Par conséquent, il est déjà assez difficile de faire fonctionner le code. Une fois qu'il fonctionne, c'est là qu'il faut le nettoyer (personne n'écrit de code propre au début). C’est pourquoi il faut consacrer à peu près le même temps à l'entretien du code qu'à son écriture.
+                Il n'est pas facile d'écrire du code propre car le cerveau humain n'est pas vraiment adapté pour le faire parfaitement du premier coup. Les humains ne pensent pas en lignes droites, ni en instructions "if" ou en boucles "while". Par conséquent, il est déjà assez difficile de faire fonctionner le code. Une fois qu'il fonctionne, c'est là qu'il faut le nettoyer (personne n'écrit du code propre du premier coup). C’est pourquoi il faut consacrer à peu près le même temps à l'entretien du code qu'à son écriture.
               </p>
               <p>
-                Voici quelques astuces d’Uncle Bob pour garder votre code propre :
+                Voici quelques astuces d’Uncle Bob pour garder son code propre :
               </p>
-              <ul>
+              <ul class="list">
                 <li>
                   Une fonction ne doit faire qu'une seule chose, et elle doit la faire bien !
                 </li>
@@ -267,6 +268,34 @@
                   N’utiliser des commentaires que lorsque c’est absolument nécessaires. La meilleure documentation est le code lui-même.
                 </li>
               </ul>
+              <h4>Les trois lois du développement assuré par les tests</h4>
+              <p>
+                Uncle Bob utilise quelques métaphores intéressantes. Quand on y pense, le travail que nous faisons, nous les développeurs, relève en fait de la magie. Nous écrivons beaucoup de mots et de symboles étranges qui ne peuvent être compris que par d'autres développeurs. Lorsque ces mots et symboles s'assemblent, ils peuvent faire des choses étonnantes. Et si un seul caractère est faux, c'est l'enfer. Alors comment s'assurer de ne pas se tromper ?
+              </p>
+              <p>
+                Prenez les comptables, par exemple, une catégorie de professionnels qui, d'une certaine manière, fait quelque chose de similaire au développement. Les comptables travaillent également avec de nombreuses données et des livres remplis de chiffres. S'ils oublient un seul chiffre ou mettent un chiffre supplémentaire là où il ne doit pas être, les conséquences peuvent être énormes.
+              </p>
+              <p>
+                Selon Oncle Bob, leur secret pour éviter les erreurs réside dans une idée vieille de 500 ans. Ils travaillent avec deux livres différents : un pour l'actif, l'autre pour le passif. Ils documentent tout deux fois, dans chaque livre. Lorsqu'on soustrait l'un de l'autre, la somme doit être égale à zéro.
+              </p>
+              <p>
+                Le développement assuré par les tests repose sur une idée similaire. En tant que développeurs, nous écrivons une ligne de code suivie d'une ligne de test. Lorsque tout est réuni, le test doit réussir. Les 3 règles d'or d'Oncle Bob :
+              </p>
+              <ul class="list">
+                <li>
+                  Vous n'êtes pas autorisé à écrire du code de production sauf si c'est pour faire passer un test unitaire défaillant.
+                </li>
+                <li>
+                  Vous n'êtes pas autorisé à écrire plus d'un test qu'il n'est suffisant pour échouer - et ne pas compiler est égal à échouer.
+                </li>
+                <li>
+                  Vous n'êtes pas autorisé à écrire plus de code de production que ce qui est suffisant pour réussir le test en cours d'échec.
+                </li>
+              </ul>
+              <h4>En conclusion</h4>
+              <p>
+                Pour moi les notions de code propre expliquées par Oncle Bob devraient être la norme. Lors de mes études de développement web, j’ai appris à coder de façon à ce que le code fonctionne. Cependant ce n’est pas le plus important, il est nécessaire que le code soit facilement lisible, compréhensible et maintenable. C’est pourquoi les principes de code propre devraient être mieux enseigné aux jeunes développeurs d’aujourd’hui et de demain.
+              </p>
             </div>
         </section>
       </article>
