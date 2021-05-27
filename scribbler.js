@@ -19,7 +19,9 @@ if (document.getElementsByClassName('demo').length > 0) {
             - Twitter
             - Podcasts
             - DEV Community
-            - Youtube`;
+            - Youtube
+            - Film Documentaire
+            - Conférence`;
   var speed = 20;
 
   function typeItOut () {
